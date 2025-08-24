@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "minecraft:ancient_debris_top"
+      },
+      "name": "default"
+    }
+  }
+}

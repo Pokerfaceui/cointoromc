@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "cointoro_qualtas:block/astralplanes_portal_ew"
+    },
+    "axis=x": {
+      "model": "cointoro_qualtas:block/astralplanes_portal_ns"
+    }
+  }
+}

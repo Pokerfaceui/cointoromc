@@ -1,1 +1,17 @@
-{}
+{
+  "item.cointoro_qualtas.dragonshed_leggings": "Dragonshed Leggings",
+  "item.cointoro_qualtas.dragonshed_boots": "Dragonshed Boots",
+  "item.cointoro_qualtas.dragonshed_chestplate": "Dragonshed Chestplate",
+  "item.cointoro_qualtas.dragonshed_helmet": "Dragonshed Helmet",
+  "block.cointoro_qualtas.astralinfection": "Astralinfection",
+  "item.cointoro_qualtas.astralinfection_bucket": "Bag of astral infection",
+  "fluid.cointoro_qualtas.astralinfection": "Astralinfection",
+  "fluid_type.cointoro_qualtas.astralinfection": "Astralinfection",
+  "item_group.cointoro_qualtas.cointoro": "Cointoro",
+  "item.cointoro_qualtas.astralplanes": "amythest podium",
+  "advancements.thebeginningoftheend.title": "The beginning of the end...",
+  "advancements.thebeginningoftheend.descr": "made it to the astrals",
+  "entity.cointoro_qualtas.sentinel": "Sentinel",
+  "item.cointoro_qualtas.sentinel_spawn_egg": "Sentinel Spawn Egg",
+  "effect.cointoro_qualtas.onfire": "On fire!"
+}

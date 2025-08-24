@@ -18,6 +18,14 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModTabs;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModMobEffects;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModItems;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModFluids;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModFluidTypes;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModEntities;
+import net.mcreator.cointoroqualtas.init.CointoroQualtasModBlocks;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
 import java.util.List;
@@ -35,6 +43,17 @@ public class CointoroQualtasMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		CointoroQualtasModBlocks.REGISTRY.register(modEventBus);
+
+		CointoroQualtasModItems.REGISTRY.register(modEventBus);
+		CointoroQualtasModEntities.REGISTRY.register(modEventBus);
+		CointoroQualtasModTabs.REGISTRY.register(modEventBus);
+
+		CointoroQualtasModMobEffects.REGISTRY.register(modEventBus);
+
+		CointoroQualtasModFluids.REGISTRY.register(modEventBus);
+		CointoroQualtasModFluidTypes.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

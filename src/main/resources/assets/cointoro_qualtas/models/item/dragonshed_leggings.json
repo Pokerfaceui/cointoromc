@@ -1,0 +1,9 @@
+{
+  "parent": "cointoro_qualtas:custom/legsers",
+  "textures": {
+    "0": "minecraft:block/ancient_debris_side",
+    "1": "minecraft:block/ancient_debris_top",
+    "2": "minecraft:block/ancient_debris_side",
+    "particle": "cointoro_qualtas:item/leggies"
+  }
+}

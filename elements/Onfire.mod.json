@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "On fire!",
+    "icon": "download_1",
+    "color": {
+      "value": -39424,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "ambient.cave"
+    },
+    "isInstant": true,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "OnfireActiveTickCondition"
+    },
+    "onMobRemoved": {
+      "name": "OnfireActiveTickCondition"
+    }
+  }
+}

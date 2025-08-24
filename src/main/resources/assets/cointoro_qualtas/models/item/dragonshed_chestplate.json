@@ -1,0 +1,7 @@
+{
+  "parent": "cointoro_qualtas:custom/dragonshed_chest",
+  "textures": {
+    "0": "minecraft:block/ancient_debris_side",
+    "particle": "cointoro_qualtas:item/plates"
+  }
+}

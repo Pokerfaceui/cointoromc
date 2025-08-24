@@ -1,17 +1,219 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Dragonshed",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonshed",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/equipment/dragonshed.json",
+          "src/main/resources/assets/cointoro_qualtas/items/dragonshed_boots.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonshed_chestplate.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonshed_boots.json",
+          "src/main/java/net/mcreator/cointoroqualtas/item/DragonshedItem.java",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonshed_helmet.json",
+          "src/main/resources/assets/cointoro_qualtas/items/dragonshed_leggings.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonshed_leggings.json",
+          "src/main/resources/assets/cointoro_qualtas/items/dragonshed_helmet.json",
+          "src/main/resources/assets/cointoro_qualtas/items/dragonshed_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Astralinfection",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralinfection",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/items/astralinfection_bucket.json",
+          "src/main/resources/assets/cointoro_qualtas/models/block/astralinfection.json",
+          "src/main/java/net/mcreator/cointoroqualtas/block/AstralinfectionBlock.java",
+          "src/main/java/net/mcreator/cointoroqualtas/item/AstralinfectionItem.java",
+          "src/main/java/net/mcreator/cointoroqualtas/fluid/AstralinfectionFluid.java",
+          "src/main/resources/assets/cointoro_qualtas/models/item/astralinfection_bucket.json",
+          "src/main/resources/assets/cointoro_qualtas/blockstates/astralinfection.json",
+          "src/main/java/net/mcreator/cointoroqualtas/fluid/types/AstralinfectionFluidType.java"
+        ]
+      }
+    },
+    {
+      "name": "Cointoro",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cointoro",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Astralplanes",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralplanes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/world/teleporter/AstralplanesPortalShape.java",
+          "src/main/resources/data/cointoro_qualtas/dimension_type/astralplanes.json",
+          "src/main/resources/data/cointoro_qualtas/dimension/astralplanes.json",
+          "src/main/resources/assets/cointoro_qualtas/models/block/astralplanes_portal_ew.json",
+          "src/main/resources/assets/cointoro_qualtas/items/astralplanes.json",
+          "src/main/resources/assets/cointoro_qualtas/models/block/astralplanes_portal_ns.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/astralplanes.json",
+          "src/main/java/net/mcreator/cointoroqualtas/item/AstralplanesItem.java",
+          "src/main/resources/assets/cointoro_qualtas/blockstates/astralplanes_portal.json",
+          "src/main/java/net/mcreator/cointoroqualtas/world/teleporter/AstralplanesTeleporter.java",
+          "src/main/java/net/mcreator/cointoroqualtas/world/dimension/AstralplanesDimension.java",
+          "src/main/java/net/mcreator/cointoroqualtas/block/AstralplanesPortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Thebeginningoftheend",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebeginningoftheend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/advancement/thebeginningoftheend.json"
+        ]
+      }
+    },
+    {
+      "name": "Enchantedruins",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchantedruins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/worldgen/structure_set/enchantedruins.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/structure/enchantedruins.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/template_pool/enchantedruins.json"
+        ]
+      }
+    },
+    {
+      "name": "Sentinel",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sentinel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/neoforge/biome_modifier/sentinel_biome_modifier.json",
+          "src/main/resources/assets/cointoro_qualtas/items/sentinel_spawn_egg.json",
+          "src/main/java/net/mcreator/cointoroqualtas/client/renderer/SentinelRenderer.java",
+          "src/main/java/net/mcreator/cointoroqualtas/entity/SentinelEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Amythestclump",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amythestclump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/recipe/amythestclump.json",
+          "src/main/resources/data/cointoro_qualtas/advancement/recipes/amythestclump.json"
+        ]
+      }
+    },
+    {
+      "name": "OnfireActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onfire_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/procedures/OnfireActiveTickConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Onfire",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onfire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/potion/OnfireMobEffect.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Dragonshed.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Dragonshed.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Dragonshed.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Dragonshed.boots"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Astralinfection"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BUDDING_AMETHYST"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.cointoro_qualtas.dragonshed_leggings": "Dragonshed Leggings",
+      "item.cointoro_qualtas.dragonshed_boots": "Dragonshed Boots",
+      "item.cointoro_qualtas.dragonshed_chestplate": "Dragonshed Chestplate",
+      "item.cointoro_qualtas.dragonshed_helmet": "Dragonshed Helmet",
+      "block.cointoro_qualtas.astralinfection": "Astralinfection",
+      "item.cointoro_qualtas.astralinfection_bucket": "Bag of astral infection",
+      "fluid.cointoro_qualtas.astralinfection": "Astralinfection",
+      "fluid_type.cointoro_qualtas.astralinfection": "Astralinfection",
+      "item_group.cointoro_qualtas.cointoro": "Cointoro",
+      "item.cointoro_qualtas.astralplanes": "amythest podium",
+      "advancements.thebeginningoftheend.title": "The beginning of the end...",
+      "advancements.thebeginningoftheend.descr": "made it to the astrals",
+      "entity.cointoro_qualtas.sentinel": "Sentinel",
+      "item.cointoro_qualtas.sentinel_spawn_egg": "Sentinel Spawn Egg",
+      "effect.cointoro_qualtas.onfire": "On fire!"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModTabs.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/cointoroqualtas/CointoroQualtasMod.java"
+      "src/main/java/net/mcreator/cointoroqualtas/CointoroQualtasMod.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModFluids.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModFluidTypes.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModMobEffects.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModBlocks.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModItems.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModEntityRenderers.java",
+      "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModEntities.java"
     ]
   },
   "foldersRoot": {

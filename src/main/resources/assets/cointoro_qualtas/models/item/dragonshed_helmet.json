@@ -1,0 +1,7 @@
+{
+  "parent": "cointoro_qualtas:custom/dragonshed_helmet",
+  "textures": {
+    "missing": "minecraft:block/ancient_debris_side",
+    "particle": "minecraft:item/netherite_helmet"
+  }
+}

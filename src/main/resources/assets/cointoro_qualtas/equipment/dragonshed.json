@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "cointoro_qualtas:dragonshed"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "cointoro_qualtas:dragonshed"
+      }
+    ]
+  }
+}

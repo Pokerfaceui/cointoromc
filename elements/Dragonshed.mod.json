@@ -1,0 +1,100 @@
+{
+  "_fv": 79,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "minecraft:netherite_helmet",
+    "enableBody": true,
+    "textureBody": "plates",
+    "enableLeggings": true,
+    "textureLeggings": "leggies",
+    "enableBoots": true,
+    "textureBoots": "bootsa",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "armorTextureFile": "dragonsheds",
+    "helmetName": "Dragonshed Helmet",
+    "bodyName": "Dragonshed Chestplate",
+    "leggingsName": "Dragonshed Leggings",
+    "bootsName": "Dragonshed Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "ModelCustomModel",
+    "helmetModelPart": "bb_main",
+    "helmetModelTexture": "download_1.png",
+    "bodyModelName": "Modelchesteys",
+    "bodyModelPart": "bb_main",
+    "armsModelPartL": "bb_main",
+    "armsModelPartR": "bb_main",
+    "bodyModelTexture": "download_1.png",
+    "leggingsModelName": "Modelaaaaaaaaaa",
+    "leggingsModelPartL": "bb_main",
+    "leggingsModelPartR": "bb_main",
+    "leggingsModelTexture": "download_1.png",
+    "bootsModelName": "Modeltoeas",
+    "bootsModelPartL": "bb_main",
+    "bootsModelPartR": "bb_main",
+    "bootsModelTexture": "download_1.png",
+    "helmetItemRenderType": 1,
+    "helmetItemCustomModelName": "dragonshed_helmet:default",
+    "bodyItemRenderType": 1,
+    "bodyItemCustomModelName": "dragonshed_chest:default",
+    "leggingsItemRenderType": 1,
+    "leggingsItemCustomModelName": "legsers:default",
+    "bootsItemRenderType": 1,
+    "bootsItemCustomModelName": "toes:default",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 999,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 50.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

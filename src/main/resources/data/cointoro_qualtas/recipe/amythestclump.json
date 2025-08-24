@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "minecraft:cobblestone",
+    "c": "minecraft:amethyst_shard",
+    "d": "minecraft:amethyst_block"
+  },
+  "result": {
+    "id": "cointoro_qualtas:astralplanes",
+    "count": 1
+  }
+}
