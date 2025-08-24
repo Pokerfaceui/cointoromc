@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 15,
+    "separation": 10,
     "restrictionBiomes": [
       {
         "value": "mutated_forest"

@@ -30,6 +30,12 @@ public class CointoroQualtasModTabs {
 			tabData.accept(CointoroQualtasModItems.ASTRALPLANES.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CointoroQualtasModItems.SENTINEL_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(CointoroQualtasModItems.ASTRALBAR.get());
+			tabData.accept(CointoroQualtasModItems.RAWASTRAL.get());
+			tabData.accept(CointoroQualtasModItems.DRAGONSCALES.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(CointoroQualtasModBlocks.ASTRALORE.get().asItem());
 		}
 	}
 }

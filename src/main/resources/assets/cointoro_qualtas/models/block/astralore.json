@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/chorus_flower_dead",
+    "up": "minecraft:block/chorus_flower_dead",
+    "north": "minecraft:block/chorus_flower",
+    "east": "minecraft:block/chorus_flower",
+    "south": "minecraft:block/chorus_flower",
+    "west": "minecraft:block/chorus_flower",
+    "particle": "minecraft:block/amethyst_cluster"
+  },
+  "render_type": "solid"
+}

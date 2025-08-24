@@ -4,10 +4,10 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "mutated_savanna"
+        "value": "CUSTOM:Astrals"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "Blocks.BUDDING_AMETHYST"
     },

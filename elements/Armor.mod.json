@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      },
+      {
+        "value": "CUSTOM:Dragonscales"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dragonshed.body"
+    },
+    "name": "armor",
+    "namespace": "mod"
+  }
+}

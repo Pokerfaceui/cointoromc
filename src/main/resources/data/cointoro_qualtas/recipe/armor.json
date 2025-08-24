@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "cointoro_qualtas:dragonscales"
+  },
+  "result": {
+    "id": "cointoro_qualtas:dragonshed_chestplate",
+    "count": 1
+  }
+}

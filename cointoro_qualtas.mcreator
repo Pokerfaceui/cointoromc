@@ -156,6 +156,127 @@
           "src/main/java/net/mcreator/cointoroqualtas/potion/OnfireMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Astrals",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astrals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/world/features/treedecorators/AstralsFruitDecorator.java",
+          "src/main/resources/data/cointoro_qualtas/worldgen/placed_feature/astrals_tree.json",
+          "src/main/java/net/mcreator/cointoroqualtas/world/features/treedecorators/AstralsTrunkDecorator.java",
+          "src/main/java/net/mcreator/cointoroqualtas/world/features/treedecorators/AstralsLeaveDecorator.java",
+          "src/main/resources/data/cointoro_qualtas/worldgen/biome/astrals.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/configured_feature/astrals_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Astralbar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/models/item/astralbar.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/astralbar_gui.json",
+          "src/main/java/net/mcreator/cointoroqualtas/item/AstralbarItem.java",
+          "src/main/resources/assets/cointoro_qualtas/items/astralbar.json"
+        ]
+      }
+    },
+    {
+      "name": "Rawastral",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawastral",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/models/item/rawastral.json",
+          "src/main/resources/assets/cointoro_qualtas/items/rawastral.json",
+          "src/main/java/net/mcreator/cointoroqualtas/item/RawastralItem.java",
+          "src/main/resources/assets/cointoro_qualtas/models/item/rawastral_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Astralbars",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralbars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/advancement/recipes/astralbars.json",
+          "src/main/resources/data/cointoro_qualtas/recipe/astralbars.json"
+        ]
+      }
+    },
+    {
+      "name": "Dragonscales",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonscales",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/item/DragonscalesItem.java",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonscales_gui.json",
+          "src/main/resources/assets/cointoro_qualtas/items/dragonscales.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/dragonscales.json"
+        ]
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/recipe/armor.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruinedastrals",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruinedastrals",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/worldgen/structure_set/ruinedastrals.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/template_pool/ruinedastrals.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/structure/ruinedastrals.json"
+        ]
+      }
+    },
+    {
+      "name": "Astralore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astralore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cointoro_qualtas/neoforge/biome_modifier/astralore_biome_modifier.json",
+          "src/main/resources/data/cointoro_qualtas/worldgen/configured_feature/astralore.json",
+          "src/main/resources/assets/cointoro_qualtas/models/block/astralore.json",
+          "src/main/java/net/mcreator/cointoroqualtas/block/AstraloreBlock.java",
+          "src/main/resources/data/cointoro_qualtas/worldgen/placed_feature/astralore.json",
+          "src/main/resources/assets/cointoro_qualtas/blockstates/astralore.json",
+          "src/main/resources/data/cointoro_qualtas/loot_table/blocks/astralore.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/astralore.json",
+          "src/main/resources/assets/cointoro_qualtas/items/astralore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -177,7 +298,71 @@
       "~CUSTOM:Astralinfection"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.AMETHYST_BLOCK",
       "~Blocks.BUDDING_AMETHYST"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Astrals"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:Astrals"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Astralore"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Astralore"
     ]
   },
   "tab_element_order": {},
@@ -197,11 +382,17 @@
       "advancements.thebeginningoftheend.descr": "made it to the astrals",
       "entity.cointoro_qualtas.sentinel": "Sentinel",
       "item.cointoro_qualtas.sentinel_spawn_egg": "Sentinel Spawn Egg",
-      "effect.cointoro_qualtas.onfire": "On fire!"
+      "effect.cointoro_qualtas.onfire": "On fire!",
+      "biome.cointoro_qualtas.astrals": "Astrals",
+      "item.cointoro_qualtas.astralbar": "Astral bar",
+      "item.cointoro_qualtas.rawastral": "Rawastral",
+      "item.cointoro_qualtas.dragonscales": "Dragonscales",
+      "item.cointoro_qualtas.astralore": "Astralore"
     }
   },
   "metadata": {
     "files": [
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModTabs.java",
       "src/main/java/net/mcreator/cointoroqualtas/init/CointoroQualtasModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",

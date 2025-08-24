@@ -13,5 +13,10 @@
   "advancements.thebeginningoftheend.descr": "made it to the astrals",
   "entity.cointoro_qualtas.sentinel": "Sentinel",
   "item.cointoro_qualtas.sentinel_spawn_egg": "Sentinel Spawn Egg",
-  "effect.cointoro_qualtas.onfire": "On fire!"
+  "effect.cointoro_qualtas.onfire": "On fire!",
+  "biome.cointoro_qualtas.astrals": "Astrals",
+  "item.cointoro_qualtas.astralbar": "Astral bar",
+  "item.cointoro_qualtas.rawastral": "Rawastral",
+  "item.cointoro_qualtas.dragonscales": "Dragonscales",
+  "item.cointoro_qualtas.astralore": "Astralore"
 }
