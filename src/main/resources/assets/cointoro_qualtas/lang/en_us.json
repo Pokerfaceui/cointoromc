@@ -18,5 +18,8 @@
   "item.cointoro_qualtas.astralbar": "Astral bar",
   "item.cointoro_qualtas.rawastral": "Rawastral",
   "item.cointoro_qualtas.dragonscales": "Dragonscales",
-  "item.cointoro_qualtas.astralore": "Astralore"
+  "item.cointoro_qualtas.astralore": "Astralore",
+  "item.cointoro_qualtas.atlas_spawn_egg": "Atlas Spawn Egg",
+  "entity.cointoro_qualtas.atlas": "Atlas",
+  "item.cointoro_qualtas.arrowstaff": "Arrow staff"
 }

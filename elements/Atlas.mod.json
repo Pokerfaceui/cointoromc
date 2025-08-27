@@ -2,9 +2,9 @@
   "_fv": 79,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Sentinel",
+    "mobName": "Atlas",
     "mobLabel": "",
-    "mobModelName": "Modelsentinel",
+    "mobModelName": "Modelbikakce",
     "mobModelTexture": "texture.png",
     "transparentModelCondition": {
       "fixedValue": false
@@ -22,14 +22,23 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
-    "animations": [],
+    "animations": [
+      {
+        "animation": {
+          "value": "CREAKING_WALK"
+        },
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6750055,
+      "value": -16777216,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -41,9 +50,9 @@
         "value": "MISC"
       }
     ],
-    "isBoss": false,
-    "bossBarColor": "PINK",
-    "bossBarType": "PROGRESS",
+    "isBoss": true,
+    "bossBarColor": "RED",
+    "bossBarType": "NOTCHED_20",
     "equipmentMainHand": {
       "value": "Items.NETHERITE_AXE"
     },
@@ -51,29 +60,29 @@
       "value": "Items.NETHERITE_AXE"
     },
     "equipmentHelmet": {
-      "value": "Items.NETHERITE_HELMET"
+      "value": "CUSTOM:Dragonshed.helmet"
     },
     "equipmentBody": {
-      "value": "Items.NETHERITE_CHESTPLATE"
+      "value": "CUSTOM:Dragonshed.body"
     },
     "equipmentLeggings": {
-      "value": "Items.NETHERITE_LEGGINGS"
+      "value": "CUSTOM:Dragonshed.legs"
     },
     "equipmentBoots": {
-      "value": "Items.NETHERITE_BOOTS"
+      "value": "CUSTOM:Dragonshed.boots"
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
-    "attackKnockback": 0.0,
+    "attackStrength": 10,
+    "attackKnockback": 2.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
     "stepHeight": 0.6,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 50.0,
     "trackingRange": 64,
-    "followRange": 32,
-    "health": 40,
-    "xpAmount": 500,
+    "followRange": 16,
+    "health": 1000,
+    "xpAmount": 11500,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -89,23 +98,23 @@
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": true,
-    "immuneToArrows": false,
+    "immuneToArrows": true,
     "immuneToFallDamage": true,
-    "immuneToCactus": false,
+    "immuneToCactus": true,
     "immuneToDrowning": true,
-    "immuneToLightning": false,
+    "immuneToLightning": true,
     "immuneToPotions": true,
     "immuneToPlayer": false,
-    "immuneToExplosion": false,
+    "immuneToExplosion": true,
     "immuneToTrident": false,
     "immuneToAnvil": true,
     "immuneToWither": true,
     "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": "Items.AMETHYST_SHARD"
+      "value": "CUSTOM:Arrowstaff"
     },
     "livingSound": {
-      "value": "ambient.cave"
+      "value": "block.beacon.ambient"
     },
     "hurtSound": {
       "value": "entity.generic.hurt"
@@ -114,7 +123,7 @@
       "value": "entity.generic.death"
     },
     "stepSound": {
-      "value": "block.amethyst_cluster.hit"
+      "value": "ambient.warped_forest.additions"
     },
     "raidCelebrationSound": {
       "value": ""
@@ -122,7 +131,7 @@
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -136,10 +145,14 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "creature",
+    "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Astrals"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,

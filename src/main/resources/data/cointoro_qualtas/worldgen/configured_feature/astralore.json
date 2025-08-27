@@ -17,6 +17,17 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "minecraft:budding_amethyst"
+          }
+        },
+        "state": {
+          "Name": "cointoro_qualtas:astralore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:amethyst_block"
           }
         },

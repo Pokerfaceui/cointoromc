@@ -11,6 +11,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.mcreator.cointoroqualtas.client.model.Modeltoeas;
 import net.mcreator.cointoroqualtas.client.model.Modelsentinel;
 import net.mcreator.cointoroqualtas.client.model.Modelchesteys;
+import net.mcreator.cointoroqualtas.client.model.Modelbikakce;
 import net.mcreator.cointoroqualtas.client.model.Modelaaaaaaaaaa;
 import net.mcreator.cointoroqualtas.client.model.ModelCustomModel;
 
@@ -20,6 +21,7 @@ public class CointoroQualtasModModels {
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modeltoeas.LAYER_LOCATION, Modeltoeas::createBodyLayer);
+		event.registerLayerDefinition(Modelbikakce.LAYER_LOCATION, Modelbikakce::createBodyLayer);
 		event.registerLayerDefinition(Modelaaaaaaaaaa.LAYER_LOCATION, Modelaaaaaaaaaa::createBodyLayer);
 		event.registerLayerDefinition(Modelsentinel.LAYER_LOCATION, Modelsentinel::createBodyLayer);
 		event.registerLayerDefinition(Modelchesteys.LAYER_LOCATION, Modelchesteys::createBodyLayer);

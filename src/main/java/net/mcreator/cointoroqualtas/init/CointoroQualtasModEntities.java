@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.cointoroqualtas.entity.SentinelEntity;
+import net.mcreator.cointoroqualtas.entity.AtlasEntity;
 import net.mcreator.cointoroqualtas.CointoroQualtasMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
@@ -25,6 +26,10 @@ public class CointoroQualtasModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, CointoroQualtasMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<SentinelEntity>> SENTINEL = register("sentinel",
 			EntityType.Builder.<SentinelEntity>of(SentinelEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<AtlasEntity>> ATLAS = register("atlas",
+			EntityType.Builder.<AtlasEntity>of(AtlasEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
 
 					.sized(0.6f, 1.8f));
 
@@ -37,10 +42,12 @@ public class CointoroQualtasModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		SentinelEntity.init(event);
+		AtlasEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SENTINEL.get(), SentinelEntity.createAttributes().build());
+		event.put(ATLAS.get(), AtlasEntity.createAttributes().build());
 	}
 }

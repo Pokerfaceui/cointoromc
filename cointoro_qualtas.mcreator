@@ -277,6 +277,72 @@
           "src/main/resources/assets/cointoro_qualtas/items/astralore.json"
         ]
       }
+    },
+    {
+      "name": "Atlas",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atlas",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/items/atlas_spawn_egg.json",
+          "src/main/resources/data/cointoro_qualtas/neoforge/biome_modifier/atlas_biome_modifier.json",
+          "src/main/java/net/mcreator/cointoroqualtas/client/renderer/AtlasRenderer.java",
+          "src/main/java/net/mcreator/cointoroqualtas/entity/AtlasEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ArrowstaffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrowstaff_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/procedures/ArrowstaffRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ArrowstaffEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrowstaff_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/cointoroqualtas/procedures/ArrowstaffEntitySwingsItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Arrowstaff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrowstaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cointoro_qualtas/models/item/arrowstaff.json",
+          "src/main/resources/assets/cointoro_qualtas/models/item/arrowstaff_gui.json",
+          "src/main/resources/assets/cointoro_qualtas/items/arrowstaff.json",
+          "src/main/java/net/mcreator/cointoroqualtas/item/ArrowstaffItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -363,6 +429,9 @@
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:Astralore"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Arrowstaff"
     ]
   },
   "tab_element_order": {},
@@ -387,7 +456,10 @@
       "item.cointoro_qualtas.astralbar": "Astral bar",
       "item.cointoro_qualtas.rawastral": "Rawastral",
       "item.cointoro_qualtas.dragonscales": "Dragonscales",
-      "item.cointoro_qualtas.astralore": "Astralore"
+      "item.cointoro_qualtas.astralore": "Astralore",
+      "item.cointoro_qualtas.atlas_spawn_egg": "Atlas Spawn Egg",
+      "entity.cointoro_qualtas.atlas": "Atlas",
+      "item.cointoro_qualtas.arrowstaff": "Arrow staff"
     }
   },
   "metadata": {

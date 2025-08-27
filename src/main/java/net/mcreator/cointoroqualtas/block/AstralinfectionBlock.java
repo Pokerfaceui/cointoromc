@@ -10,6 +10,6 @@ import net.mcreator.cointoroqualtas.init.CointoroQualtasModFluids;
 
 public class AstralinfectionBlock extends LiquidBlock {
 	public AstralinfectionBlock(BlockBehaviour.Properties properties) {
-		super(CointoroQualtasModFluids.ASTRALINFECTION.get(), properties.mapColor(MapColor.FIRE).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(CointoroQualtasModFluids.ASTRALINFECTION.get(), properties.mapColor(MapColor.WATER).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }

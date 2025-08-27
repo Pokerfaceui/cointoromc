@@ -28,6 +28,6 @@ public class SentinelRenderer extends MobRenderer<SentinelEntity, LivingEntityRe
 
 	@Override
 	public ResourceLocation getTextureLocation(LivingEntityRenderState state) {
-		return ResourceLocation.parse("cointoro_qualtas:textures/entities/download_1.png");
+		return ResourceLocation.parse("cointoro_qualtas:textures/entities/texture.png");
 	}
 }

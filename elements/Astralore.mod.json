@@ -142,6 +142,9 @@
         "value": "TAG:stone_ore_replaceables"
       },
       {
+        "value": "Blocks.BUDDING_AMETHYST"
+      },
+      {
         "value": "Blocks.AMETHYST_BLOCK"
       }
     ],

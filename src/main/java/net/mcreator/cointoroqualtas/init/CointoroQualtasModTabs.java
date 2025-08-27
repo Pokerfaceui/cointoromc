@@ -28,8 +28,10 @@ public class CointoroQualtasModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CointoroQualtasModItems.ASTRALINFECTION_BUCKET.get());
 			tabData.accept(CointoroQualtasModItems.ASTRALPLANES.get());
+			tabData.accept(CointoroQualtasModItems.ARROWSTAFF.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(CointoroQualtasModItems.SENTINEL_SPAWN_EGG.get());
+			tabData.accept(CointoroQualtasModItems.ATLAS_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(CointoroQualtasModItems.ASTRALBAR.get());
 			tabData.accept(CointoroQualtasModItems.RAWASTRAL.get());

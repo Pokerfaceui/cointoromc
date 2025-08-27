@@ -19,6 +19,7 @@ import net.mcreator.cointoroqualtas.item.DragonscalesItem;
 import net.mcreator.cointoroqualtas.item.AstralplanesItem;
 import net.mcreator.cointoroqualtas.item.AstralinfectionItem;
 import net.mcreator.cointoroqualtas.item.AstralbarItem;
+import net.mcreator.cointoroqualtas.item.ArrowstaffItem;
 import net.mcreator.cointoroqualtas.CointoroQualtasMod;
 
 import java.util.function.Function;
@@ -36,6 +37,8 @@ public class CointoroQualtasModItems {
 	public static final DeferredItem<Item> RAWASTRAL = register("rawastral", RawastralItem::new);
 	public static final DeferredItem<Item> DRAGONSCALES = register("dragonscales", DragonscalesItem::new);
 	public static final DeferredItem<Item> ASTRALORE = block(CointoroQualtasModBlocks.ASTRALORE, new Item.Properties().rarity(Rarity.EPIC));
+	public static final DeferredItem<Item> ATLAS_SPAWN_EGG = register("atlas_spawn_egg", properties -> new SpawnEggItem(CointoroQualtasModEntities.ATLAS.get(), properties));
+	public static final DeferredItem<Item> ARROWSTAFF = register("arrowstaff", ArrowstaffItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

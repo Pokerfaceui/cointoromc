@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "cointoro_qualtas:astrals",
+  "spawners": {
+    "type": "cointoro_qualtas:atlas",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
